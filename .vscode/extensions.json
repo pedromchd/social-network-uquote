@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "adrianwilczynski.alpine-js-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "donjayamanne.jquerysnippets",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "thekalinga.bootstrap4-vscode",
+  ]
+}
