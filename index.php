@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="stylesheet" href="./css/font-awesome.min.css" />
   <script defer src="./js/alpine.min.js"></script>
-  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
 </head>
 
 <body class="antialised flex min-h-screen flex-col text-neutral-900" x-data="{'darkMode': false}" x-init="darkMode = JSON.parse(localStorage.getItem('darkMode')); $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))">
   <div :class="{'dark': darkMode === true}">
-    <header class="transition-bg-color flex w-full items-center justify-between bg-neutral-100 px-6 py-3 duration-200 dark:bg-neutral-900 md:px-8">
+    <header class="transition-colors flex w-full items-center justify-between bg-neutral-100 px-6 py-3 duration-200 dark:bg-neutral-900 md:px-8">
       <div class="flex items-center justify-end space-x-2">
         <span class="text-sm text-neutral-900 duration-200 dark:text-neutral-500">Light</span>
         <label for="toggle" class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-neutral-300 p-1 duration-200 ease-in-out dark:bg-gray-600">
