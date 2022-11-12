@@ -1,10 +1,14 @@
 {
   "recommendations": [
     "adrianwilczynski.alpine-js-intellisense",
+    "alexcvzz.vscode-sqlite",
+    "bmewburn.vscode-intelephense-client",
     "bradlc.vscode-tailwindcss",
-    "donjayamanne.jquerysnippets",
+    "christian-kohler.path-intellisense",
+    "donjayamanne.git-extension-pack",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "thekalinga.bootstrap4-vscode",
+    "pranaygp.vscode-css-peek",
+    "thekalinga.bootstrap4-vscode"
   ]
 }

@@ -1,19 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ["./*.php"],
   darkMode: "class",
   theme: {
-    extend: {
-      transitionProperty: {
-        "bg-color": "background-color",
-      },
-    },
+    extend: {},
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/line-clamp"),
-    require("@tailwindcss/aspect-ratio"),
-    require("@shrutibalasa/tailwind-grid-auto-fit"),
-  ],
-};
+  plugins: [],
+}
